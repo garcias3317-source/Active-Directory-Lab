@@ -5,15 +5,6 @@
 This project demonstrates the deployment of a fully functional Windows Server 2019 environment. I configured a Domain Controller from scratch, managed networking services (DHCP/NAT), and implemented enterprise security policies via Group Policy Objects (GPO). This lab simulates a real-world corporate environment for user management and technical support.
 <br />
 
-<h2>Technologies & Environments Used</h2>
-
-- **Windows Server 2019** (Domain Controller)
-- **Windows 10** (Workstation Client)
-- **Oracle VirtualBox** (Virtualization)
-- **Active Directory Domain Services (AD DS)**
-- **DHCP & Routing/Remote Access (NAT)**
-- **Group Policy Management (GPO)**
-
 ---
 
 <h2>Project Walk-through:</h2>
@@ -29,7 +20,7 @@ I began by promoting a Windows Server 2019 instance to a Domain Controller. This
 To ensure the server could act as a gateway, I assigned a static IP (**192.168.0.1**) and configured **Network Address Translation (NAT)** to allow domain-joined workstations to access the internet through the server.
 
 <p align="center">
-<img src="https://i.imgur.com/8m5XNlB.png" height="80%" width="80%" alt="Network Configuration"/>
+<img src="https://imgur.com/fm8Ql7G.png" height="80%" width="80%" alt="Network Configuration"/>
 </p>
 
 ### 3. DHCP Scope Setup
@@ -45,7 +36,7 @@ I designed a custom **Organizational Unit (OU)** structure. I created user accou
 <p align="center">
 <img src="https://i.imgur.com/0Up0Rz2.png" height="80%" width="80%" alt="User Properties"/>
 <br />
-<img src="https://i.imgur.com/97SjJ3R.png" height="80%" width="80%" alt="Domain Join Verification"/>
+<img src="https://imgur.com/KTbwNa6.png" height="80%" width="80%" alt="Domain Join Verification"/>
 </p>
 
 ### 5. Security Policies (Group Policy Objects)
