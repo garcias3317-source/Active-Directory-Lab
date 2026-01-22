@@ -1,5 +1,5 @@
 # 🏰 Active Directory & Network Services Lab
-### [Sergio Garcia | IT Portfolio](https://github.com/YOUR_USERNAME)
+### [Sergio Garcia | IT Portfolio](https://github.com/garcias3317-source)
 
 <h2>Description</h2>
 This project demonstrates the deployment of a fully functional Windows Server 2019 environment. I configured a Domain Controller from scratch, managed networking services (DHCP/NAT), and implemented enterprise security policies via Group Policy Objects (GPO). This lab simulates a real-world corporate environment for user management and technical support.
@@ -60,8 +60,3 @@ After running `gpupdate /force`, I verified the policies were applied. The final
 </p>
 
 ---
-
-### Key Takeaways
-* **Troubleshooting:** Successfully resolved initial DNS issues during the domain-join process.
-* **Automation:** Used GPOs to push settings to multiple users instantly, rather than manual configuration.
-* **Security:** Implemented the "Principle of Least Privilege" by managing group memberships.
